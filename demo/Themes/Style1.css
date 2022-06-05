@@ -1,0 +1,92 @@
+﻿*{
+    box-sizing:border-box;    
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color:#696969;
+}
+
+#header{
+    position:relative;
+    display:grid;
+    grid-template-columns:repeat(12, 1fr);
+    background:rgb(235, 233, 233);
+    width: 100%;
+    height: 60px;
+    font-family: 'Courier New';
+    box-shadow:4px 4px 4px 4px rgb(0 0 0 / 30%);
+    z-index: 1;
+}
+
+#topnav{
+    margin-left:20px;
+    grid-column:1/8;
+    font-family:'Courier New';
+
+}
+
+#topnav ul li{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+
+    
+
+}
+
+#topnav ul li{
+    padding:0;
+    margin:0;
+    float:left;
+    height:50px;
+    width:180px;
+    line-height:25px;
+    font-size:18px;
+    text-align:center;
+}
+
+#TopLogInOut{
+    grid-column:9/13;
+    font-family:'Courier New';
+    font-size:18px; 
+}
+
+
+
+#TopLogInOut ul li{
+    line-height:25px;
+    list-style:none;
+    float:left;
+    width:150px;
+    height:50px;
+    text-align:center;
+
+}
+
+#footer{
+    margin-top: 50px;
+    font-size:15px;
+    padding:10px;
+    background:black;
+}
+
+#footer #footercontent{
+    
+    margin-top:10px;
+    margin-left:45px;
+    margin-bottom:10px;
+}
+
+#footer #footercontent p{
+    padding:0;
+    margin:1px;
+    color:white;
+}
+

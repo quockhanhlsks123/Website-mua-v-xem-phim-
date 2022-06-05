@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E3B96B33-F2BD-413C-AC24-589C716EEBD7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>demo</RootNamespace>
+    <AssemblyName>demo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="12nguoiLinh.aspx" />
+    <Content Include="AppRise.aspx" />
+    <Content Include="duongbangtuthan.aspx" />
+    <Content Include="Fury.aspx" />
+    <Content Include="GvsK.aspx" />
+    <Content Include="JohnWick4.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Home.Master" />
+    <Content Include="demo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>demo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.aspx" />
+    <Content Include="joker.aspx" />
+    <Content Include="KeTinhNghi.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="logout.aspx" />
+    <Content Include="midway.aspx" />
+    <Content Include="ngHungKoSung.aspx" />
+    <Content Include="Phimchieurap.aspx" />
+    <Content Include="Sapramat.aspx" />
+    <Content Include="Themes\giamgia1.jpg" />
+    <Content Include="Themes\giamgia2.jpg" />
+    <Content Include="Themes\giamgia3.jpg" />
+    <Content Include="Themes\giamgia4.jpg" />
+    <Content Include="Themes\giamgia5.jpg" />
+    <Content Include="Themes\hacksaw-ridge.jpg" />
+    <Content Include="Themes\iceroad.jpg" />
+    <Content Include="Themes\imglogin.jpg" />
+    <Content Include="Themes\joker.jpg" />
+    <Content Include="Themes\khuyenmai2.jpg" />
+    <Content Include="Themes\mega-hours.png" />
+    <Content Include="Themes\midway.jpg" />
+    <Content Include="Themes\mohinhghe.png" />
+    <Content Include="Themes\mohinhghe2.png" />
+    <Content Include="Themes\mohinhghe3.png" />
+    <Content Include="Themes\oldKnives.jpg" />
+    <Content Include="Themes\Style1.css" />
+    <Content Include="Themes\Style2.css" />
+    <Content Include="Themes\sukien1.jpg" />
+    <Content Include="Themes\sukien2.jpg" />
+    <Content Include="Themes\tim-lai-cong-ly-stillwater.jpg" />
+    <Content Include="signup.aspx" />
+    <Content Include="Themes\12strongs.jpg" />
+    <Content Include="Themes\ape.jpg" />
+    <Content Include="Themes\fury.jpg" />
+    <Content Include="Themes\godzilla.jpg" />
+    <Content Include="Themes\img1.jpg" />
+    <Content Include="Themes\img2.jpg" />
+    <Content Include="Themes\img3.jpg" />
+    <Content Include="Themes\johnWick.jpg" />
+    <Content Include="Themes\mainImg.jpg" />
+    <Content Include="Themes\MOONFALL.jpg" />
+    <Content Include="Themes\uudai.jpg" />
+    <Content Include="TimkiemThongTin.aspx" />
+    <Content Include="timlaicongly.aspx" />
+    <Content Include="trangRoi.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="12nguoiLinh.aspx.cs">
+      <DependentUpon>12nguoiLinh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="12nguoiLinh.aspx.designer.cs">
+      <DependentUpon>12nguoiLinh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AppRise.aspx.cs">
+      <DependentUpon>AppRise.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AppRise.aspx.designer.cs">
+      <DependentUpon>AppRise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="duongbangtuthan.aspx.cs">
+      <DependentUpon>duongbangtuthan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="duongbangtuthan.aspx.designer.cs">
+      <DependentUpon>duongbangtuthan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fury.aspx.cs">
+      <DependentUpon>Fury.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fury.aspx.designer.cs">
+      <DependentUpon>Fury.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GvsK.aspx.cs">
+      <DependentUpon>GvsK.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GvsK.aspx.designer.cs">
+      <DependentUpon>GvsK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JohnWick4.aspx.cs">
+      <DependentUpon>JohnWick4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JohnWick4.aspx.designer.cs">
+      <DependentUpon>JohnWick4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>demo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.Master.cs">
+      <DependentUpon>Home.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.Master.designer.cs">
+      <DependentUpon>Home.Master</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="joker.aspx.cs">
+      <DependentUpon>joker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="joker.aspx.designer.cs">
+      <DependentUpon>joker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KeTinhNghi.aspx.cs">
+      <DependentUpon>KeTinhNghi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KeTinhNghi.aspx.designer.cs">
+      <DependentUpon>KeTinhNghi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="midway.aspx.cs">
+      <DependentUpon>midway.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="midway.aspx.designer.cs">
+      <DependentUpon>midway.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ngHungKoSung.aspx.cs">
+      <DependentUpon>ngHungKoSung.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ngHungKoSung.aspx.designer.cs">
+      <DependentUpon>ngHungKoSung.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Phimchieurap.aspx.cs">
+      <DependentUpon>Phimchieurap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Phimchieurap.aspx.designer.cs">
+      <DependentUpon>Phimchieurap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sapramat.aspx.cs">
+      <DependentUpon>Sapramat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sapramat.aspx.designer.cs">
+      <DependentUpon>Sapramat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="signup.aspx.cs">
+      <DependentUpon>signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signup.aspx.designer.cs">
+      <DependentUpon>signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TimkiemThongTin.aspx.cs">
+      <DependentUpon>TimkiemThongTin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TimkiemThongTin.aspx.designer.cs">
+      <DependentUpon>TimkiemThongTin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="timlaicongly.aspx.cs">
+      <DependentUpon>timlaicongly.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="timlaicongly.aspx.designer.cs">
+      <DependentUpon>timlaicongly.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="trangRoi.aspx.cs">
+      <DependentUpon>trangRoi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="trangRoi.aspx.designer.cs">
+      <DependentUpon>trangRoi.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="demo.dbml.layout">
+      <DependentUpon>demo.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3007</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:33606/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
